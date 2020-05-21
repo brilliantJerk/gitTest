@@ -1,0 +1,42 @@
+注册：
+sdsn1@DESKTOP-PD35S92 MINGW32 ~/Desktop
+$ git config --global user.name sdsn
+
+sdsn1@DESKTOP-PD35S92 MINGW32 ~/Desktop
+$ git config --global user.email 459749170@qq.com
+
+ F:/WAMP/wamp/www/gitTest, 打开该文件，点击鼠标右键， 
+sdsn1@DESKTOP-PD35S92 MINGW32 /f/WAMP/wamp/www/gitTest
+$ git init
+Initialized empty Git repository in F:/WAMP/wamp/www/gitTest/.git/ ，生成了.git目录
+
+sdsn1@DESKTOP-PD35S92 MINGW32 /f/WAMP/wamp/www/gitTest (master)
+$ git status
+On branch master
+
+No commits yet
+
+在同级目录下创建Readme.txt文件
+
+sdsn1@DESKTOP-PD35S92 MINGW32 /f/WAMP/wamp/www/gitTest (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        Readme.txt
+
+sdsn1@DESKTOP-PD35S92 MINGW32 /f/WAMP/wamp/www/gitTest (master)
+$ git add Readme.txt
+
+sdsn1@DESKTOP-PD35S92 MINGW32 /f/WAMP/wamp/www/gitTest (master)
+$ git commit -m "1.添加Readme.txt文件"
+[master (root-commit) 30dc245] 1.添加Readme.txt文件
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Readme.txt
+
+
+
